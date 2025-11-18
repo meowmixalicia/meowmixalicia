@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exclusive Content Access</title>
+<style>
+  body {
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; flex-direction: column;
+    background-color: #1a1a1a; color: #fff; font-family: 'Arial', sans-serif;
+    text-align: center; margin: 0;
+  }
+  h1 { font-size: 32px; margin-bottom: 10px; }
+  p { font-size: 18px; margin-bottom: 20px; }
+  button {
+    padding: 15px 35px; font-size: 18px; cursor: pointer;
+    background-color: #ff0050; border: none; border-radius: 10px;
+    color: #fff; transition: background 0.2s ease;
+  }
+  button:hover { background-color: #e60047; }
+</style>
+</head>
+<body>
+<h1>Are you 18 or older?</h1>
+<p>You must be 18+ to access this content.</p>
+<button onclick="redirect()">Yes, I am 18+</button>
+
+<script>
+function redirect() {
+    window.open("https://onlyfans.com/kitty882", "_blank");
+}
+</script>
+</body>
+</html>
